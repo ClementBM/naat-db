@@ -37,21 +37,21 @@ INSERT INTO Resource_Type (Name) VALUES ('Ouvrage/Article');
 INSERT INTO Resource_Type (Name) VALUES ('Newsletter');
 
 /*
-Final_Decision
+Decision_Status
 Demandes accueillies, Rejet, Ne statue pas sur le fond, Demande partiellement accueillies
 */
-INSERT INTO Final_Decision (Name) VALUES ('Demandes accueillies');
-INSERT INTO Final_Decision (Name) VALUES ('Rejet');
-INSERT INTO Final_Decision (Name) VALUES ('Ne statue pas sur le fond');
-INSERT INTO Final_Decision (Name) VALUES ('Demande partiellement accueillies');
+INSERT INTO Decision_Status (Name) VALUES ('Demandes accueillies');
+INSERT INTO Decision_Status (Name) VALUES ('Rejet');
+INSERT INTO Decision_Status (Name) VALUES ('Ne statue pas sur le fond');
+INSERT INTO Decision_Status (Name) VALUES ('Demande partiellement accueillies');
 
 /*
 Case_Status
 En cours, Finie, En appel
 */
-INSERT INTO Case_Status (Name) VALUES ('En cours');
-INSERT INTO Case_Status (Name) VALUES ('Finie');
-INSERT INTO Case_Status (Name) VALUES ('En appel');
+INSERT INTO Legal_Case_Status (Name) VALUES ('En cours');
+INSERT INTO Legal_Case_Status (Name) VALUES ('Finie');
+INSERT INTO Legal_Case_Status (Name) VALUES ('En appel');
 
 /*
 AgentParty
